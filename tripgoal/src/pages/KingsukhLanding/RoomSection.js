@@ -1,6 +1,6 @@
 import { Text } from "../../components";
 import React, { Suspense } from "react";
-import TripGoalLandingColumnchatone from "../../components/TripGoalLandingColumnchatOne";
+import RoomColumn from "../../components/RoomColumn";
 
 // Fixed travelQuestionnaireList data structure
 const travelQuestionnaireList = [
@@ -24,7 +24,7 @@ const travelQuestionnaireList = [
   },
 ];
 
-export default function TripStepsSection() {
+export default function RoomSection() {
   return (
     <>
       {/* Trip Steps Section */}
@@ -56,7 +56,7 @@ export default function TripStepsSection() {
           <div className="gap-[30px] flex self-stretch md:flex-col">
             <Suspense fallback={<div>Loading feed...</div>}>
               {travelQuestionnaireList.map((d, index) => (
-                <TripGoalLandingColumnchatone {...d} key={"featuresList" + index} />
+                <RoomColumn {...d} key={"featuresList" + index} />
               ))}
             </Suspense>
           </div>

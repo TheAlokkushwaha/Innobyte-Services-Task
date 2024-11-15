@@ -25,10 +25,10 @@ const Slider = React.forwardRef(
     // Map through items and clone the active item with custom styles
     const slideItems = centerMode
       ? items?.map((child, index) => {
-          if (isSmall(index)) {
+          if (issmall(index)) {
             return React.cloneElement(child, {
               ...child.props,
-              className: [child.props?.className, activeSlideCSS]
+              className: [child.props?.className, activeSlideCss] // Fixed variable name
                 .filter(Boolean)
                 .join(" "),
             });

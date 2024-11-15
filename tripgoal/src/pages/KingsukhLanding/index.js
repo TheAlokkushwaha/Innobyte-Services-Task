@@ -3,14 +3,14 @@ import { Helmet } from "react-helmet";
 import Header from "../../components/Header";
 import BookingOptionsSection from "./BookingOptionsSection";
 import ContactUsSection from "./ContactUsSection";
-import TestimonialsSection from "./TestmonialsSection";
-import TripGoalLandingMainSection from "./TripGoalLandingMainSection";
-import TripGoalLandingMainSection1 from "./TripGoalLandingMainSection1";
-import TripHighlightsSection from "./TripHighlightsSection";
-import TripStepsSection from "./TripStepsSection";
+import ServicesSection from "./ServicesSection";
+import KingsukhLandingMainSection from "./KingsukhLandingMainSection";
+import KingsukhLandingSection from "./KingsukhLandingSection";
+import HighlightsSection from "./HighlightsSection";
+import RoomSection from "./RoomSection";
 import Footer from "components/Footer";
 
-export default function TripGoalLandingPage() {
+export default function KingsukhLandingPage() {
   return (
     <>
       <Helmet>
@@ -31,7 +31,7 @@ export default function TripGoalLandingPage() {
                     <Header />
                   </div>
                   {/* Trip Goal Landing Main Section */}
-                  <TripGoalLandingMainSection />
+                  <KingsukhLandingMainSection />
                 </div>
               </div>
               {/* Booking Options Section */}
@@ -39,17 +39,17 @@ export default function TripGoalLandingPage() {
             </div>
             <div className="py-[120px] mt-[-72px] relative bg-white-a700 md:py-5">
               {/* Trip Steps Section */}
-              <TripStepsSection />
+              <RoomSection />
             </div>
           </div>
           {/* Additional Trip Goal Landing Section */}
-          <TripGoalLandingMainSection1 />
+          <KingsukhLandingSection />
 
           {/* Testimonials Section */}
-          <TestimonialsSection />
+          <ServicesSection />
 
           {/* Trip Highlights Section */}
-          <TripHighlightsSection />
+          <HighlightsSection />
 
           {/* Contact Us Section */}
           <ContactUsSection />

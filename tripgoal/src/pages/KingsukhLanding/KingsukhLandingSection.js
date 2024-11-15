@@ -1,15 +1,7 @@
-import { Img, Text, Button } from "../../components";
-import TripGoalLandingVisitors from "../../components/TripGoalLandingVisitors";
-import React, { Suspense } from "react";
+import { Text, Button } from "../../components";
+import React from "react";
 
-const visitorStatsGrid = [
-  { p10m: "10M+", visitors: "Visitors" },
-  { p10m: "109", visitors: "Hotels" },
-  { p10m: "29", visitors: "Food Shop" },
-  { p10m: "18", visitors: "Related Spots" },
-];
-
-export default function TripGoalLandingMainSection1() {
+export default function KingsukhLandingSection() {
 
   return (
     <>

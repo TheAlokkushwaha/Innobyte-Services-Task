@@ -76,7 +76,7 @@ export default function BookingOptionsSection() {
               <Button
                 size="headingxs"
                 as="h2"
-                className="text-[18px] font-bold text-white-a700"
+                className="text-[18px] font-bold hover:bg-blue-a200 text-white-a700 "
               >
                 Book Now
               </Button>

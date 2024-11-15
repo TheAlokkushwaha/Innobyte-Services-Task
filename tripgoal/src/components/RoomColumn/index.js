@@ -1,7 +1,7 @@
-import { Text, Img, Button } from "./..";
+import { Text, Img, Button } from "..";
 import React from "react";
 
-export default function TripGoalLandingColumnchatOne({
+export default function RoomColumn({
   chatone = "images/img_chat.png",
   telluswhat = "Tell us what you want to do",
   filloutatwo = "Fill out a 2-minute questionnaire about how you like to travel",

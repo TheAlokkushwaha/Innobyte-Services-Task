@@ -8,7 +8,7 @@ import {
   faUtensils,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function TestimonialsSection() {
+export default function ServicesSection() {
   return (
     <>
       {/* testimonials section */}

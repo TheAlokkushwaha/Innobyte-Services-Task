@@ -1,7 +1,7 @@
 import { Button, Text, Img, Heading } from "../../components";
 import React from "react";
 
-export default function TripGoalLandingMainSection() {
+export default function KingsukhLandingMainSection() {
   return (
     <>
       {/* Trip Goal Landing Main Section */}

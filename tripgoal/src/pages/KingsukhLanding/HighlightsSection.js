@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 
-export default function TripHighlightsSection() {
+export default function HighlightsSection() {
   const [sliderState, setSliderState] = React.useState(0);
   const sliderRef = React.useRef(null);
 

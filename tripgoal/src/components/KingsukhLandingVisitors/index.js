@@ -1,7 +1,7 @@
-import { Text, Heading } from "./..";
+import { Text, Heading } from "..";
 import React from "react";
 
-export default function TripGoalLandingVisitors({ p10m = "10M+", visitors = "Visitors", ...props }) {
+export default function KingsukhLandingVisitors({ p10m = "10M+", visitors = "Visitors", ...props }) {
   return (
     <div
       {...props} 
