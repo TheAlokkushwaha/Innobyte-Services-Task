@@ -12,10 +12,10 @@ export default function ServicesSection() {
   return (
     <>
       {/* testimonials section */}
-      <div className="self-stretch">
-        <div className="py-[116px] flex flex-col items-center justify-center bg-gray-50_01 md:py-5">
-          <div className="container-xs gap-[30px] flex flex-col md:px-5">
-            <div className="mr-[286px] ml-[296px] flex flex-col items-center md:mx-0">
+      <div id="services" className="self-stretch" >
+        <div className="py-[80px] flex flex-col items-center justify-center bg-gray-50_01 md:py-5" >
+          <div className="container-xs gap-[30px] flex flex-col md:px-5" >
+            <div className="mr-[286px] ml-[296px] flex flex-col items-center md:mx-0" >
               <Text
                 size="textxs"
                 as="p"
@@ -168,7 +168,6 @@ export default function ServicesSection() {
                         className="rounded-[30px] h-[60px] w-full object-cover md:h-auto"
                       />
                     </div>
-                    
                   </div>
                 </div>
                 <div className="sm:gap-[88px] md:gap-[132px] mb-[42px] w-[14%] ml-2.5 flex flex-col items-start gap-44 self-end md:ml-0 md:w-full md:self-auto">

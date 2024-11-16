@@ -4,6 +4,10 @@ body {
   font-family: "Airbnb Cereal App", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   line-height: normal;

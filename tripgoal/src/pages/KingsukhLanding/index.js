@@ -30,7 +30,7 @@ export default function KingsukhLandingPage() {
                   <div className="container-xs md:px-5">
                     <Header />
                   </div>
-                  {/* Trip Goal Landing Main Section */}
+                  {/* Home Section */}
                   <KingsukhLandingMainSection />
                 </div>
               </div>
@@ -38,20 +38,20 @@ export default function KingsukhLandingPage() {
               <BookingOptionsSection />
             </div>
             <div className="py-[120px] mt-[-72px] relative bg-white-a700 md:py-5">
-              {/* Trip Steps Section */}
+              {/* Rooms Section */}
               <RoomSection />
             </div>
           </div>
-          {/* Additional Trip Goal Landing Section */}
+          {/* About Us Section */}
           <KingsukhLandingSection />
 
-          {/* Testimonials Section */}
+          {/* Services Section */}
           <ServicesSection />
 
-          {/* Trip Highlights Section */}
+          {/* Gallery Section */}
           <HighlightsSection />
 
-          {/* Contact Us Section */}
+          {/* Contact Section */}
           <ContactUsSection />
 
           <div className="w-full">

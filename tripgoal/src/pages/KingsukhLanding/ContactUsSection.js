@@ -31,7 +31,7 @@ export default function ContactUsSection() {
 
   return (
     <>
-      <div className="mt-[50px] flex justify-center self-stretch">
+      <div id="contact" className="mt-[50px] flex justify-center self-stretch">
         <div className="container flex justify-center py-10 px-5 bg-gray-100 md:px-3">
           <div className="flex w-full flex-col md:flex-row gap-8 md:gap-12 items-start p-8 bg-white rounded-[20px]">
             {/* Contact Form Section */}
@@ -84,7 +84,9 @@ export default function ContactUsSection() {
 
               {/* Right Side - Contact Info */}
               <div className="p-8 bg-white text-white rounded-lg shadow-lg md:max-w-xs">
-                <h3 className="text-lg font-semibold mb-5 text-blue_gray-900 font-ekselldisplay2">Contact Info</h3>
+                <h3 className="text-lg font-semibold mb-5 text-blue_gray-900 font-ekselldisplay2">
+                  Contact Info
+                </h3>
                 <div className="space-y-4">
                   <p className="flex items-start gap-3">
                     <span className="text-xl">📍</span> Beside Barshal Water

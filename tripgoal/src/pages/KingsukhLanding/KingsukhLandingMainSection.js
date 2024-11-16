@@ -5,6 +5,9 @@ export default function KingsukhLandingMainSection() {
   return (
     <>
       {/* Trip Goal Landing Main Section */}
+      <div id="home" className="your-styles mt-[-50px]">
+        {/* Content of Home Section */}
+      </div>
       <div className="flex justify-center self-stretch">
         <div className="container-xs flex items-start justify-center md:flex-col md:px-5">
           <div className="h-[596px] relative flex-1 self-center md:w-full md:flex-none md:self-stretch">

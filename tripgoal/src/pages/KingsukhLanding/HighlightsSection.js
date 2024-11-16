@@ -1,8 +1,7 @@
 import { Text, RatingBar, Img, Slider, Button } from "../../components";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
-
+import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function HighlightsSection() {
   const [sliderState, setSliderState] = React.useState(0);
@@ -59,13 +58,13 @@ export default function HighlightsSection() {
       src: "images/recep.jpg",
       title: "Room",
       location: "Kingsukh",
-    }
+    },
   ];
 
   return (
     <>
       {/* trip highlights section */}
-      <div className="self-stretch">
+      <div id="gallery" className="self-stretch">
         <div className="py-[116px] flex flex-col items-center justify-center md:py-5">
           <div className="container-xs sm:gap-[35px] md:gap-[52px] gap-[70px] flex flex-col md:px-5">
             <div className="flex items-center justify-between gap-5 md:flex-col">
@@ -89,9 +88,9 @@ export default function HighlightsSection() {
                   as="p"
                   className="text-[16px] mt-[18px] w-[66%] font-normal leading-7 text-blue_gray-500 md:w-full"
                 >
-                  We've welcomed global travelers to our warm, inviting guest house. 
-                  Explore our gallery to see cozy rooms, relaxing spaces, and 
-                  beautiful surroundings!
+                  We've welcomed global travelers to our warm, inviting guest
+                  house. Explore our gallery to see cozy rooms, relaxing spaces,
+                  and beautiful surroundings!
                 </Text>
               </div>
 
@@ -103,7 +102,7 @@ export default function HighlightsSection() {
                   size="sm"
                   className="rotate-[-180deg] w-[50px]"
                 >
-                  <FontAwesomeIcon icon={faCircleChevronRight} size="2x" />                          
+                  <FontAwesomeIcon icon={faCircleChevronRight} size="2x" />
                 </Button>
                 <Button
                   onClick={() => {
@@ -112,7 +111,7 @@ export default function HighlightsSection() {
                   size="sm"
                   className="w-[50px]"
                 >
-                  <FontAwesomeIcon icon={faCircleChevronRight} size="2x" />  
+                  <FontAwesomeIcon icon={faCircleChevronRight} size="2x" />
                 </Button>
               </div>
             </div>
