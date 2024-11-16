@@ -25,6 +25,7 @@ Before running the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/TheAlokkushwaha/Innobyte-Services-Task
    cd Innobyte-Services-Task
+   cd tripgoal
    ```
 
 2. **Install the necessary packages**  
