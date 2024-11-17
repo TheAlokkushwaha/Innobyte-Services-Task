@@ -45,12 +45,6 @@ export default function KingsukhLandingMainSection() {
               >
                 Make Yourself At Home In Our Guest House.
               </Heading>
-
-              <Img
-                src="images/Group.png"
-                alt="Settings Image"
-                className="right-[55%] bottom-[-50px] w-[40px] h-[40px] absolute m-auto"
-              />
             </div>
             <Button
               size="md"
